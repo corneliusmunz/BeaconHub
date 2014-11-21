@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D35DA82199E30F000F66D20 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D35DA81199E30F000F66D20 /* Cocoa.framework */; };
+		0D35DA8C199E30F000F66D20 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0D35DA8A199E30F000F66D20 /* InfoPlist.strings */; };
+		0D35DA8E199E30F000F66D20 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D35DA8D199E30F000F66D20 /* main.m */; };
+		0D35DA92199E30F000F66D20 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 0D35DA90199E30F000F66D20 /* Credits.rtf */; };
+		0D35DA95199E30F000F66D20 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D35DA94199E30F000F66D20 /* AppDelegate.m */; };
+		0D35DA98199E30F000F66D20 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D35DA96199E30F000F66D20 /* MainMenu.xib */; };
+		0D35DA9A199E30F000F66D20 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D35DA99199E30F000F66D20 /* Images.xcassets */; };
+		0D35DAA1199E30F000F66D20 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D35DAA0199E30F000F66D20 /* XCTest.framework */; };
+		0D35DAA2199E30F000F66D20 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D35DA81199E30F000F66D20 /* Cocoa.framework */; };
+		0D35DAAA199E30F000F66D20 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0D35DAA8199E30F000F66D20 /* InfoPlist.strings */; };
+		0D35DAAC199E30F000F66D20 /* BeaconHubTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D35DAAB199E30F000F66D20 /* BeaconHubTests.m */; };
+		0D35DAB6199E347900F66D20 /* IOBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D35DAB5199E347900F66D20 /* IOBluetooth.framework */; };
+		0D35DAB919A366D800F66D20 /* Beacon.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D35DAB819A366D800F66D20 /* Beacon.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0D35DAA3199E30F000F66D20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D35DA76199E30F000F66D20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D35DA7D199E30F000F66D20;
+			remoteInfo = BeaconHub;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D35DA7E199E30F000F66D20 /* BeaconHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeaconHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D35DA81199E30F000F66D20 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		0D35DA84199E30F000F66D20 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		0D35DA85199E30F000F66D20 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		0D35DA86199E30F000F66D20 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0D35DA89199E30F000F66D20 /* BeaconHub-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BeaconHub-Info.plist"; sourceTree = "<group>"; };
+		0D35DA8B199E30F000F66D20 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0D35DA8D199E30F000F66D20 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0D35DA8F199E30F000F66D20 /* BeaconHub-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BeaconHub-Prefix.pch"; sourceTree = "<group>"; };
+		0D35DA91199E30F000F66D20 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		0D35DA93199E30F000F66D20 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0D35DA94199E30F000F66D20 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0D35DA97199E30F000F66D20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		0D35DA99199E30F000F66D20 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0D35DA9F199E30F000F66D20 /* BeaconHubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeaconHubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D35DAA0199E30F000F66D20 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		0D35DAA7199E30F000F66D20 /* BeaconHubTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BeaconHubTests-Info.plist"; sourceTree = "<group>"; };
+		0D35DAA9199E30F000F66D20 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0D35DAAB199E30F000F66D20 /* BeaconHubTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeaconHubTests.m; sourceTree = "<group>"; };
+		0D35DAB5199E347900F66D20 /* IOBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOBluetooth.framework; path = System/Library/Frameworks/IOBluetooth.framework; sourceTree = SDKROOT; };
+		0D35DAB719A366D800F66D20 /* Beacon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Beacon.h; sourceTree = "<group>"; };
+		0D35DAB819A366D800F66D20 /* Beacon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Beacon.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D35DA7B199E30F000F66D20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D35DAB6199E347900F66D20 /* IOBluetooth.framework in Frameworks */,
+				0D35DA82199E30F000F66D20 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D35DA9C199E30F000F66D20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D35DAA2199E30F000F66D20 /* Cocoa.framework in Frameworks */,
+				0D35DAA1199E30F000F66D20 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D35DA75199E30F000F66D20 = {
+			isa = PBXGroup;
+			children = (
+				0D35DA87199E30F000F66D20 /* BeaconHub */,
+				0D35DAA5199E30F000F66D20 /* BeaconHubTests */,
+				0D35DA80199E30F000F66D20 /* Frameworks */,
+				0D35DA7F199E30F000F66D20 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0D35DA7F199E30F000F66D20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D35DA7E199E30F000F66D20 /* BeaconHub.app */,
+				0D35DA9F199E30F000F66D20 /* BeaconHubTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D35DA80199E30F000F66D20 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D35DAB5199E347900F66D20 /* IOBluetooth.framework */,
+				0D35DA81199E30F000F66D20 /* Cocoa.framework */,
+				0D35DAA0199E30F000F66D20 /* XCTest.framework */,
+				0D35DA83199E30F000F66D20 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0D35DA83199E30F000F66D20 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D35DA84199E30F000F66D20 /* AppKit.framework */,
+				0D35DA85199E30F000F66D20 /* CoreData.framework */,
+				0D35DA86199E30F000F66D20 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		0D35DA87199E30F000F66D20 /* BeaconHub */ = {
+			isa = PBXGroup;
+			children = (
+				0D35DA93199E30F000F66D20 /* AppDelegate.h */,
+				0D35DA94199E30F000F66D20 /* AppDelegate.m */,
+				0D35DA96199E30F000F66D20 /* MainMenu.xib */,
+				0D35DA99199E30F000F66D20 /* Images.xcassets */,
+				0D35DA88199E30F000F66D20 /* Supporting Files */,
+				0D35DAB719A366D800F66D20 /* Beacon.h */,
+				0D35DAB819A366D800F66D20 /* Beacon.m */,
+			);
+			path = BeaconHub;
+			sourceTree = "<group>";
+		};
+		0D35DA88199E30F000F66D20 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0D35DA89199E30F000F66D20 /* BeaconHub-Info.plist */,
+				0D35DA8A199E30F000F66D20 /* InfoPlist.strings */,
+				0D35DA8D199E30F000F66D20 /* main.m */,
+				0D35DA8F199E30F000F66D20 /* BeaconHub-Prefix.pch */,
+				0D35DA90199E30F000F66D20 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0D35DAA5199E30F000F66D20 /* BeaconHubTests */ = {
+			isa = PBXGroup;
+			children = (
+				0D35DAAB199E30F000F66D20 /* BeaconHubTests.m */,
+				0D35DAA6199E30F000F66D20 /* Supporting Files */,
+			);
+			path = BeaconHubTests;
+			sourceTree = "<group>";
+		};
+		0D35DAA6199E30F000F66D20 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0D35DAA7199E30F000F66D20 /* BeaconHubTests-Info.plist */,
+				0D35DAA8199E30F000F66D20 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0D35DA7D199E30F000F66D20 /* BeaconHub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D35DAAF199E30F000F66D20 /* Build configuration list for PBXNativeTarget "BeaconHub" */;
+			buildPhases = (
+				0D35DA7A199E30F000F66D20 /* Sources */,
+				0D35DA7B199E30F000F66D20 /* Frameworks */,
+				0D35DA7C199E30F000F66D20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeaconHub;
+			productName = BeaconHub;
+			productReference = 0D35DA7E199E30F000F66D20 /* BeaconHub.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0D35DA9E199E30F000F66D20 /* BeaconHubTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D35DAB2199E30F000F66D20 /* Build configuration list for PBXNativeTarget "BeaconHubTests" */;
+			buildPhases = (
+				0D35DA9B199E30F000F66D20 /* Sources */,
+				0D35DA9C199E30F000F66D20 /* Frameworks */,
+				0D35DA9D199E30F000F66D20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D35DAA4199E30F000F66D20 /* PBXTargetDependency */,
+			);
+			name = BeaconHubTests;
+			productName = BeaconHubTests;
+			productReference = 0D35DA9F199E30F000F66D20 /* BeaconHubTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0D35DA76199E30F000F66D20 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Bosch Thermotechnik GmbH";
+				TargetAttributes = {
+					0D35DA9E199E30F000F66D20 = {
+						TestTargetID = 0D35DA7D199E30F000F66D20;
+					};
+				};
+			};
+			buildConfigurationList = 0D35DA79199E30F000F66D20 /* Build configuration list for PBXProject "BeaconHub" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0D35DA75199E30F000F66D20;
+			productRefGroup = 0D35DA7F199E30F000F66D20 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D35DA7D199E30F000F66D20 /* BeaconHub */,
+				0D35DA9E199E30F000F66D20 /* BeaconHubTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D35DA7C199E30F000F66D20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D35DA8C199E30F000F66D20 /* InfoPlist.strings in Resources */,
+				0D35DA9A199E30F000F66D20 /* Images.xcassets in Resources */,
+				0D35DA92199E30F000F66D20 /* Credits.rtf in Resources */,
+				0D35DA98199E30F000F66D20 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D35DA9D199E30F000F66D20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D35DAAA199E30F000F66D20 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D35DA7A199E30F000F66D20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D35DAB919A366D800F66D20 /* Beacon.m in Sources */,
+				0D35DA95199E30F000F66D20 /* AppDelegate.m in Sources */,
+				0D35DA8E199E30F000F66D20 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D35DA9B199E30F000F66D20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D35DAAC199E30F000F66D20 /* BeaconHubTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0D35DAA4199E30F000F66D20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D35DA7D199E30F000F66D20 /* BeaconHub */;
+			targetProxy = 0D35DAA3199E30F000F66D20 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0D35DA8A199E30F000F66D20 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D35DA8B199E30F000F66D20 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0D35DA90199E30F000F66D20 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D35DA91199E30F000F66D20 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		0D35DA96199E30F000F66D20 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D35DA97199E30F000F66D20 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		0D35DAA8199E30F000F66D20 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D35DAA9199E30F000F66D20 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0D35DAAD199E30F000F66D20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0D35DAAE199E30F000F66D20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0D35DAB0199E30F000F66D20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BeaconHub/BeaconHub-Prefix.pch";
+				INFOPLIST_FILE = "BeaconHub/BeaconHub-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0D35DAB1199E30F000F66D20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BeaconHub/BeaconHub-Prefix.pch";
+				INFOPLIST_FILE = "BeaconHub/BeaconHub-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0D35DAB3199E30F000F66D20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BeaconHub.app/Contents/MacOS/BeaconHub";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BeaconHub/BeaconHub-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BeaconHubTests/BeaconHubTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		0D35DAB4199E30F000F66D20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BeaconHub.app/Contents/MacOS/BeaconHub";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BeaconHub/BeaconHub-Prefix.pch";
+				INFOPLIST_FILE = "BeaconHubTests/BeaconHubTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D35DA79199E30F000F66D20 /* Build configuration list for PBXProject "BeaconHub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D35DAAD199E30F000F66D20 /* Debug */,
+				0D35DAAE199E30F000F66D20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D35DAAF199E30F000F66D20 /* Build configuration list for PBXNativeTarget "BeaconHub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D35DAB0199E30F000F66D20 /* Debug */,
+				0D35DAB1199E30F000F66D20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D35DAB2199E30F000F66D20 /* Build configuration list for PBXNativeTarget "BeaconHubTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D35DAB3199E30F000F66D20 /* Debug */,
+				0D35DAB4199E30F000F66D20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0D35DA76199E30F000F66D20 /* Project object */;
+}
